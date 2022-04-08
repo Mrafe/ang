@@ -8,4 +8,11 @@ import { Component, OnInit } from '@angular/core';
 export class DisplayNameComponent implements OnInit {
 
   firstName: string = 'Mai';
-  lastName: string =
+  lastName: string = 'Sak';
+
+  constructor() { }
+
+  ngOnInit(): void {
+  }
+
+}
